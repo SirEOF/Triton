@@ -38,7 +38,7 @@ namespace triton {
 
     /*! \class API
      *  \brief This is used as C++ API. */
-    class API {
+    class __declspec(dllexport) API {
 
       protected:
         //! The architecture entry.
@@ -708,7 +708,7 @@ namespace triton {
     };
 
     //! The API can be accessed as everywhere.
-    extern API api;
+    extern __declspec(dllexport) API api;
 
 /*! @} End of triton namespace */
 };

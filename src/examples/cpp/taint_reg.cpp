@@ -8,8 +8,8 @@
 */
 
 #include <iostream>
-#include <triton/api.hpp>
-#include <triton/x86Specifications.hpp>
+#include <api.hpp>
+#include <x86Specifications.hpp>
 
 using namespace triton;
 using namespace triton::arch;
